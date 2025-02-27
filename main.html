@@ -1,35 +1,36 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<h1>World</h1>
-	<nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+    <header>
+        <h1 role="heading">Jayprakash Sahu's Portfolio</h1>
+    </header>
+    
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-	<img src="https://cdn.mos.cms.futurecdn.net/FaWKMJQnr2PFcYCmEyfiTm-1200-80.jpg" alt="Earth" height=200px>
-	<p>If the world is ending, I wanna be next, to you.</p>
-	<ul>
-		<li>I</li>
-		<li>am</li>
-		<li>Batman</li>
-
-	</ul>
-
-	
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    
+    <section id="about">
+        <img src="https://photos.google.com/u/2/album/AF1QipPFNVZs7OpOT_fNk6o_KDbvNMu40m4g-176ouWi/photo/AF1QipNZPS6dJwz51piOVaM_18tsZB441iTvZHR3MBnc" alt="Jayprakash Sahu smiling" role="img">
+        <p>Hello! I’m Jayprakash Sahu, a passionate writer and web developer dedicated to crafting compelling stories and accessible digital experiences.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul role="list">
+            <li role="listitem">Creative Writing Portfolio</li>
+            <li role="listitem">Accessible Web Development</li>
+            <li role="listitem">Personal Blog on Literature & Tech</li>
+        </ul>
+    </section>
 </body>
-
 </html>
